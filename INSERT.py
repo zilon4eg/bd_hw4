@@ -76,6 +76,8 @@ connection.execute('''
     INSERT INTO collection(title, year) VALUES('туц-туц', 2001);
     INSERT INTO collection(title, year) VALUES('road music', 2010);
     INSERT INTO collection(title, year) VALUES('open space', 2014);
+    INSERT INTO collection(title, year) VALUES('fly', 2000);
+    INSERT INTO collection(title, year) VALUES('fire', 1999);
     ''')
 
 connection.execute('''
@@ -129,4 +131,6 @@ connection.execute('''
     INSERT INTO track_collection(track_id, collection_id) VALUES(2, 6);
     INSERT INTO track_collection(track_id, collection_id) VALUES(10, 6);
     INSERT INTO track_collection(track_id, collection_id) VALUES(12, 6);
+    INSERT INTO track_collection(track_id, collection_id) VALUES(1, 7);
+    INSERT INTO track_collection(track_id, collection_id) VALUES(3, 8);
     ''')
