@@ -93,7 +93,8 @@ connection.execute('''
     INSERT INTO executor_genre(executor_id, genre_id) VALUES(10, 1);
     INSERT INTO executor_genre(executor_id, genre_id) VALUES(11, 2);
     INSERT INTO executor_genre(executor_id, genre_id) VALUES(12, 8);
-    INSERT INTO executor_genre(executor_id, genre_id) VALUES(13, 1);    
+    INSERT INTO executor_genre(executor_id, genre_id) VALUES(13, 1);
+    INSERT INTO executor_genre(executor_id, genre_id) VALUES(12, 7);
     ''')
 
 connection.execute('''
